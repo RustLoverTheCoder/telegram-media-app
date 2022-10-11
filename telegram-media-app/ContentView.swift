@@ -14,6 +14,8 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
             Text("Hello, world!")
+        LottieView(lottieFile: "duck")
+            .frame(width: 300, height: 300)
         }
         .padding()
     }

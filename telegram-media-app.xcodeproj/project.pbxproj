@@ -14,6 +14,9 @@
 		CFF1F2AE28F5002B00F73B4A /* telegram_media_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF1F2AD28F5002B00F73B4A /* telegram_media_appTests.swift */; };
 		CFF1F2B828F5002B00F73B4A /* telegram_media_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF1F2B728F5002B00F73B4A /* telegram_media_appUITests.swift */; };
 		CFF1F2BA28F5002B00F73B4A /* telegram_media_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF1F2B928F5002B00F73B4A /* telegram_media_appUITestsLaunchTests.swift */; };
+		CFF1F2CB28F57E1200F73B4A /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = CFF1F2CA28F57E1200F73B4A /* Lottie */; };
+		CFF1F2CD28F57E9D00F73B4A /* duck.json in Resources */ = {isa = PBXBuildFile; fileRef = CFF1F2CC28F57E9D00F73B4A /* duck.json */; };
+		CFF1F2CF28F57ED000F73B4A /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF1F2CE28F57ED000F73B4A /* LottieView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,8 @@
 		CFF1F2B728F5002B00F73B4A /* telegram_media_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = telegram_media_appUITests.swift; sourceTree = "<group>"; };
 		CFF1F2B928F5002B00F73B4A /* telegram_media_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = telegram_media_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		CFF1F2C828F5045100F73B4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		CFF1F2CC28F57E9D00F73B4A /* duck.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = duck.json; path = "../../../../Downloads/iOS Contest/5 Resources/3 Sticker/duck.json"; sourceTree = "<group>"; };
+		CFF1F2CE28F57ED000F73B4A /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFF1F2CB28F57E1200F73B4A /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,11 +101,13 @@
 		CFF1F29B28F5002800F73B4A /* telegram-media-app */ = {
 			isa = PBXGroup;
 			children = (
+				CFF1F2CC28F57E9D00F73B4A /* duck.json */,
 				CFF1F2C828F5045100F73B4A /* Info.plist */,
 				CFF1F29C28F5002800F73B4A /* telegram_media_appApp.swift */,
 				CFF1F29E28F5002800F73B4A /* ContentView.swift */,
 				CFF1F2A028F5002B00F73B4A /* Assets.xcassets */,
 				CFF1F2A228F5002B00F73B4A /* Preview Content */,
+				CFF1F2CE28F57ED000F73B4A /* LottieView.swift */,
 			);
 			path = "telegram-media-app";
 			sourceTree = "<group>";
@@ -145,6 +153,9 @@
 			dependencies = (
 			);
 			name = "telegram-media-app";
+			packageProductDependencies = (
+				CFF1F2CA28F57E1200F73B4A /* Lottie */,
+			);
 			productName = "telegram-media-app";
 			productReference = CFF1F29928F5002800F73B4A /* telegram-media-app.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +228,9 @@
 				Base,
 			);
 			mainGroup = CFF1F29028F5002800F73B4A;
+			packageReferences = (
+				CFF1F2C928F57E1200F73B4A /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = CFF1F29A28F5002800F73B4A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -234,6 +248,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CFF1F2A428F5002B00F73B4A /* Preview Assets.xcassets in Resources */,
+				CFF1F2CD28F57E9D00F73B4A /* duck.json in Resources */,
 				CFF1F2A128F5002B00F73B4A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +276,7 @@
 			files = (
 				CFF1F29F28F5002800F73B4A /* ContentView.swift in Sources */,
 				CFF1F29D28F5002800F73B4A /* telegram_media_appApp.swift in Sources */,
+				CFF1F2CF28F57ED000F73B4A /* LottieView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -581,6 +597,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CFF1F2C928F57E1200F73B4A /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CFF1F2CA28F57E1200F73B4A /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CFF1F2C928F57E1200F73B4A /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CFF1F29128F5002800F73B4A /* Project object */;
 }
