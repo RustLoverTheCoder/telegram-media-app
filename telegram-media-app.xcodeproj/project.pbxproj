@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFF1F29D28F5002800F73B4A /* telegram_media_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF1F29C28F5002800F73B4A /* telegram_media_appApp.swift */; };
+		CFF1F29F28F5002800F73B4A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF1F29E28F5002800F73B4A /* ContentView.swift */; };
+		CFF1F2A128F5002B00F73B4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFF1F2A028F5002B00F73B4A /* Assets.xcassets */; };
+		CFF1F2A428F5002B00F73B4A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFF1F2A328F5002B00F73B4A /* Preview Assets.xcassets */; };
+		CFF1F2AE28F5002B00F73B4A /* telegram_media_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF1F2AD28F5002B00F73B4A /* telegram_media_appTests.swift */; };
+		CFF1F2B828F5002B00F73B4A /* telegram_media_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF1F2B728F5002B00F73B4A /* telegram_media_appUITests.swift */; };
+		CFF1F2BA28F5002B00F73B4A /* telegram_media_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF1F2B928F5002B00F73B4A /* telegram_media_appUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFF1F2AA28F5002B00F73B4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFF1F29128F5002800F73B4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFF1F29828F5002800F73B4A;
+			remoteInfo = "telegram-media-app";
+		};
+		CFF1F2B428F5002B00F73B4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFF1F29128F5002800F73B4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFF1F29828F5002800F73B4A;
+			remoteInfo = "telegram-media-app";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CFF1F29928F5002800F73B4A /* telegram-media-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "telegram-media-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFF1F29C28F5002800F73B4A /* telegram_media_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = telegram_media_appApp.swift; sourceTree = "<group>"; };
+		CFF1F29E28F5002800F73B4A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CFF1F2A028F5002B00F73B4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFF1F2A328F5002B00F73B4A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CFF1F2A928F5002B00F73B4A /* telegram-media-appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "telegram-media-appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFF1F2AD28F5002B00F73B4A /* telegram_media_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = telegram_media_appTests.swift; sourceTree = "<group>"; };
+		CFF1F2B328F5002B00F73B4A /* telegram-media-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "telegram-media-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFF1F2B728F5002B00F73B4A /* telegram_media_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = telegram_media_appUITests.swift; sourceTree = "<group>"; };
+		CFF1F2B928F5002B00F73B4A /* telegram_media_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = telegram_media_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CFF1F2C828F5045100F73B4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFF1F29628F5002800F73B4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFF1F2A628F5002B00F73B4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFF1F2B028F5002B00F73B4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFF1F29028F5002800F73B4A = {
+			isa = PBXGroup;
+			children = (
+				CFF1F29B28F5002800F73B4A /* telegram-media-app */,
+				CFF1F2AC28F5002B00F73B4A /* telegram-media-appTests */,
+				CFF1F2B628F5002B00F73B4A /* telegram-media-appUITests */,
+				CFF1F29A28F5002800F73B4A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFF1F29A28F5002800F73B4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFF1F29928F5002800F73B4A /* telegram-media-app.app */,
+				CFF1F2A928F5002B00F73B4A /* telegram-media-appTests.xctest */,
+				CFF1F2B328F5002B00F73B4A /* telegram-media-appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFF1F29B28F5002800F73B4A /* telegram-media-app */ = {
+			isa = PBXGroup;
+			children = (
+				CFF1F2C828F5045100F73B4A /* Info.plist */,
+				CFF1F29C28F5002800F73B4A /* telegram_media_appApp.swift */,
+				CFF1F29E28F5002800F73B4A /* ContentView.swift */,
+				CFF1F2A028F5002B00F73B4A /* Assets.xcassets */,
+				CFF1F2A228F5002B00F73B4A /* Preview Content */,
+			);
+			path = "telegram-media-app";
+			sourceTree = "<group>";
+		};
+		CFF1F2A228F5002B00F73B4A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CFF1F2A328F5002B00F73B4A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CFF1F2AC28F5002B00F73B4A /* telegram-media-appTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFF1F2AD28F5002B00F73B4A /* telegram_media_appTests.swift */,
+			);
+			path = "telegram-media-appTests";
+			sourceTree = "<group>";
+		};
+		CFF1F2B628F5002B00F73B4A /* telegram-media-appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CFF1F2B728F5002B00F73B4A /* telegram_media_appUITests.swift */,
+				CFF1F2B928F5002B00F73B4A /* telegram_media_appUITestsLaunchTests.swift */,
+			);
+			path = "telegram-media-appUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFF1F29828F5002800F73B4A /* telegram-media-app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFF1F2BD28F5002B00F73B4A /* Build configuration list for PBXNativeTarget "telegram-media-app" */;
+			buildPhases = (
+				CFF1F29528F5002800F73B4A /* Sources */,
+				CFF1F29628F5002800F73B4A /* Frameworks */,
+				CFF1F29728F5002800F73B4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "telegram-media-app";
+			productName = "telegram-media-app";
+			productReference = CFF1F29928F5002800F73B4A /* telegram-media-app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFF1F2A828F5002B00F73B4A /* telegram-media-appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFF1F2C028F5002B00F73B4A /* Build configuration list for PBXNativeTarget "telegram-media-appTests" */;
+			buildPhases = (
+				CFF1F2A528F5002B00F73B4A /* Sources */,
+				CFF1F2A628F5002B00F73B4A /* Frameworks */,
+				CFF1F2A728F5002B00F73B4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFF1F2AB28F5002B00F73B4A /* PBXTargetDependency */,
+			);
+			name = "telegram-media-appTests";
+			productName = "telegram-media-appTests";
+			productReference = CFF1F2A928F5002B00F73B4A /* telegram-media-appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CFF1F2B228F5002B00F73B4A /* telegram-media-appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFF1F2C328F5002B00F73B4A /* Build configuration list for PBXNativeTarget "telegram-media-appUITests" */;
+			buildPhases = (
+				CFF1F2AF28F5002B00F73B4A /* Sources */,
+				CFF1F2B028F5002B00F73B4A /* Frameworks */,
+				CFF1F2B128F5002B00F73B4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFF1F2B528F5002B00F73B4A /* PBXTargetDependency */,
+			);
+			name = "telegram-media-appUITests";
+			productName = "telegram-media-appUITests";
+			productReference = CFF1F2B328F5002B00F73B4A /* telegram-media-appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFF1F29128F5002800F73B4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					CFF1F29828F5002800F73B4A = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					CFF1F2A828F5002B00F73B4A = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = CFF1F29828F5002800F73B4A;
+					};
+					CFF1F2B228F5002B00F73B4A = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = CFF1F29828F5002800F73B4A;
+					};
+				};
+			};
+			buildConfigurationList = CFF1F29428F5002800F73B4A /* Build configuration list for PBXProject "telegram-media-app" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFF1F29028F5002800F73B4A;
+			productRefGroup = CFF1F29A28F5002800F73B4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFF1F29828F5002800F73B4A /* telegram-media-app */,
+				CFF1F2A828F5002B00F73B4A /* telegram-media-appTests */,
+				CFF1F2B228F5002B00F73B4A /* telegram-media-appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFF1F29728F5002800F73B4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFF1F2A428F5002B00F73B4A /* Preview Assets.xcassets in Resources */,
+				CFF1F2A128F5002B00F73B4A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFF1F2A728F5002B00F73B4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFF1F2B128F5002B00F73B4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFF1F29528F5002800F73B4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFF1F29F28F5002800F73B4A /* ContentView.swift in Sources */,
+				CFF1F29D28F5002800F73B4A /* telegram_media_appApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFF1F2A528F5002B00F73B4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFF1F2AE28F5002B00F73B4A /* telegram_media_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFF1F2AF28F5002B00F73B4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFF1F2BA28F5002B00F73B4A /* telegram_media_appUITestsLaunchTests.swift in Sources */,
+				CFF1F2B828F5002B00F73B4A /* telegram_media_appUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFF1F2AB28F5002B00F73B4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFF1F29828F5002800F73B4A /* telegram-media-app */;
+			targetProxy = CFF1F2AA28F5002B00F73B4A /* PBXContainerItemProxy */;
+		};
+		CFF1F2B528F5002B00F73B4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFF1F29828F5002800F73B4A /* telegram-media-app */;
+			targetProxy = CFF1F2B428F5002B00F73B4A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CFF1F2BB28F5002B00F73B4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CFF1F2BC28F5002B00F73B4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFF1F2BE28F5002B00F73B4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"telegram-media-app/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "telegram-media-app/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "telegram.telegram-media-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CFF1F2BF28F5002B00F73B4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"telegram-media-app/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "telegram-media-app/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "telegram.telegram-media-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CFF1F2C128F5002B00F73B4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "telegram.telegram-media-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/telegram-media-app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/telegram-media-app";
+			};
+			name = Debug;
+		};
+		CFF1F2C228F5002B00F73B4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "telegram.telegram-media-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/telegram-media-app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/telegram-media-app";
+			};
+			name = Release;
+		};
+		CFF1F2C428F5002B00F73B4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "telegram.telegram-media-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "telegram-media-app";
+			};
+			name = Debug;
+		};
+		CFF1F2C528F5002B00F73B4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "telegram.telegram-media-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "telegram-media-app";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFF1F29428F5002800F73B4A /* Build configuration list for PBXProject "telegram-media-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFF1F2BB28F5002B00F73B4A /* Debug */,
+				CFF1F2BC28F5002B00F73B4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFF1F2BD28F5002B00F73B4A /* Build configuration list for PBXNativeTarget "telegram-media-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFF1F2BE28F5002B00F73B4A /* Debug */,
+				CFF1F2BF28F5002B00F73B4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFF1F2C028F5002B00F73B4A /* Build configuration list for PBXNativeTarget "telegram-media-appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFF1F2C128F5002B00F73B4A /* Debug */,
+				CFF1F2C228F5002B00F73B4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFF1F2C328F5002B00F73B4A /* Build configuration list for PBXNativeTarget "telegram-media-appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFF1F2C428F5002B00F73B4A /* Debug */,
+				CFF1F2C528F5002B00F73B4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFF1F29128F5002800F73B4A /* Project object */;
+}
