@@ -8,12 +8,11 @@
 import SwiftUI
 
 struct ContentView: View {
+    init() {
+        print("123")
+    }
     var body: some View {
-        VStack {
-        LottieView(lottieFile: "duck")
-            .frame(width: 80, height: 80)
-        }
-        .padding()
+        AllowAccess()
     }
 }
 

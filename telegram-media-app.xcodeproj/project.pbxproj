@@ -17,6 +17,7 @@
 		CFF1F2CB28F57E1200F73B4A /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = CFF1F2CA28F57E1200F73B4A /* Lottie */; };
 		CFF1F2CD28F57E9D00F73B4A /* duck.json in Resources */ = {isa = PBXBuildFile; fileRef = CFF1F2CC28F57E9D00F73B4A /* duck.json */; };
 		CFF1F2CF28F57ED000F73B4A /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF1F2CE28F57ED000F73B4A /* LottieView.swift */; };
+		CFF1F2D228F69F0100F73B4A /* AllowAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF1F2D128F69F0100F73B4A /* AllowAccess.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		CFF1F2C828F5045100F73B4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		CFF1F2CC28F57E9D00F73B4A /* duck.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = duck.json; path = "../../../../Downloads/iOS Contest/5 Resources/3 Sticker/duck.json"; sourceTree = "<group>"; };
 		CFF1F2CE28F57ED000F73B4A /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		CFF1F2D128F69F0100F73B4A /* AllowAccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllowAccess.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		CFF1F29B28F5002800F73B4A /* telegram-media-app */ = {
 			isa = PBXGroup;
 			children = (
+				CFF1F2D028F69ECD00F73B4A /* ui */,
 				CFF1F2CC28F57E9D00F73B4A /* duck.json */,
 				CFF1F2C828F5045100F73B4A /* Info.plist */,
 				CFF1F29C28F5002800F73B4A /* telegram_media_appApp.swift */,
@@ -135,6 +138,14 @@
 				CFF1F2B928F5002B00F73B4A /* telegram_media_appUITestsLaunchTests.swift */,
 			);
 			path = "telegram-media-appUITests";
+			sourceTree = "<group>";
+		};
+		CFF1F2D028F69ECD00F73B4A /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				CFF1F2D128F69F0100F73B4A /* AllowAccess.swift */,
+			);
+			path = ui;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,6 +286,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CFF1F29F28F5002800F73B4A /* ContentView.swift in Sources */,
+				CFF1F2D228F69F0100F73B4A /* AllowAccess.swift in Sources */,
 				CFF1F29D28F5002800F73B4A /* telegram_media_appApp.swift in Sources */,
 				CFF1F2CF28F57ED000F73B4A /* LottieView.swift in Sources */,
 			);
