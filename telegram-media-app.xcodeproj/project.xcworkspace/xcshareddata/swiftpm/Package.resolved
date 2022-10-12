@@ -8,6 +8,15 @@
         "revision" : "b4bd0604ded9574807f41b4004b57dd1226a30a4",
         "version" : "3.5.0"
       }
+    },
+    {
+      "identity" : "permissionskit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/sparrowcode/PermissionsKit",
+      "state" : {
+        "revision" : "01d64ef804ba3e537de17db5eb2c68e9121e1193",
+        "version" : "9.0.1"
+      }
     }
   ],
   "version" : 2

@@ -6,6 +6,8 @@
 //
 
 import SwiftUI
+import PermissionsKit
+import PhotoLibraryPermission
 
 struct AllowAccess: View {
     var body: some View {
@@ -16,6 +18,9 @@ struct AllowAccess: View {
             HStack {
                 Button(action: {
                     print("Button tapped!")
+                    Permission.photoLibrary.request {
+                        
+                    }
                 }) {
                     Text("Allow Access").fontWeight(.semibold).font(.subheadline).padding(10).overlay(
                         RoundedRectangle(cornerRadius: 10.0)

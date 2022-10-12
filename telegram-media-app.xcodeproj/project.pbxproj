@@ -18,6 +18,8 @@
 		CFF1F2CD28F57E9D00F73B4A /* duck.json in Resources */ = {isa = PBXBuildFile; fileRef = CFF1F2CC28F57E9D00F73B4A /* duck.json */; };
 		CFF1F2CF28F57ED000F73B4A /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF1F2CE28F57ED000F73B4A /* LottieView.swift */; };
 		CFF1F2D228F69F0100F73B4A /* AllowAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF1F2D128F69F0100F73B4A /* AllowAccess.swift */; };
+		CFF1F2D728F6C0C100F73B4A /* PhotoLibraryPermission in Frameworks */ = {isa = PBXBuildFile; productRef = CFF1F2D628F6C0C100F73B4A /* PhotoLibraryPermission */; };
+		CFF1F2D928F6C1FF00F73B4A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF1F2D828F6C1FF00F73B4A /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,7 @@
 		CFF1F2CC28F57E9D00F73B4A /* duck.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = duck.json; path = "../../../../Downloads/iOS Contest/5 Resources/3 Sticker/duck.json"; sourceTree = "<group>"; };
 		CFF1F2CE28F57ED000F73B4A /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
 		CFF1F2D128F69F0100F73B4A /* AllowAccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllowAccess.swift; sourceTree = "<group>"; };
+		CFF1F2D828F6C1FF00F73B4A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFF1F2D728F6C0C100F73B4A /* PhotoLibraryPermission in Frameworks */,
 				CFF1F2CB28F57E1200F73B4A /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,6 +148,7 @@
 			isa = PBXGroup;
 			children = (
 				CFF1F2D128F69F0100F73B4A /* AllowAccess.swift */,
+				CFF1F2D828F6C1FF00F73B4A /* HomeView.swift */,
 			);
 			path = ui;
 			sourceTree = "<group>";
@@ -166,6 +171,7 @@
 			name = "telegram-media-app";
 			packageProductDependencies = (
 				CFF1F2CA28F57E1200F73B4A /* Lottie */,
+				CFF1F2D628F6C0C100F73B4A /* PhotoLibraryPermission */,
 			);
 			productName = "telegram-media-app";
 			productReference = CFF1F29928F5002800F73B4A /* telegram-media-app.app */;
@@ -241,6 +247,7 @@
 			mainGroup = CFF1F29028F5002800F73B4A;
 			packageReferences = (
 				CFF1F2C928F57E1200F73B4A /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				CFF1F2D528F6C0C100F73B4A /* XCRemoteSwiftPackageReference "PermissionsKit" */,
 			);
 			productRefGroup = CFF1F29A28F5002800F73B4A /* Products */;
 			projectDirPath = "";
@@ -288,6 +295,7 @@
 				CFF1F29F28F5002800F73B4A /* ContentView.swift in Sources */,
 				CFF1F2D228F69F0100F73B4A /* AllowAccess.swift in Sources */,
 				CFF1F29D28F5002800F73B4A /* telegram_media_appApp.swift in Sources */,
+				CFF1F2D928F6C1FF00F73B4A /* HomeView.swift in Sources */,
 				CFF1F2CF28F57ED000F73B4A /* LottieView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -619,6 +627,14 @@
 				minimumVersion = 3.0.0;
 			};
 		};
+		CFF1F2D528F6C0C100F73B4A /* XCRemoteSwiftPackageReference "PermissionsKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sparrowcode/PermissionsKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -626,6 +642,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = CFF1F2C928F57E1200F73B4A /* XCRemoteSwiftPackageReference "lottie-ios" */;
 			productName = Lottie;
+		};
+		CFF1F2D628F6C0C100F73B4A /* PhotoLibraryPermission */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CFF1F2D528F6C0C100F73B4A /* XCRemoteSwiftPackageReference "PermissionsKit" */;
+			productName = PhotoLibraryPermission;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
