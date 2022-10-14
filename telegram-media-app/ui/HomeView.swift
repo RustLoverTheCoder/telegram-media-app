@@ -6,10 +6,18 @@
 //
 
 import SwiftUI
+import Photos
 
 struct HomeView: View {
+    @State private var allPhotos = []
+    init() {
+        print(PHAsset.fetchAssets(with: .image, options: PHFetchOptions()))
+    }
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ScrollView {
+            Image(systemName: "folder")
+            Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        }
     }
 }
 
